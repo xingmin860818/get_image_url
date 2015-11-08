@@ -25,3 +25,4 @@ for i in img_urls:
 	user = User(websit=url,img_url=i)
 	session.add(user)
 	session.commit()
+session.close()
